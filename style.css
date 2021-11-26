@@ -19,7 +19,7 @@ h1,h2,h3,h4 {
 }
 
 h1{
-  font-size: 24px;
+  font-size: 28px;
 }
 
 h2{
@@ -52,10 +52,15 @@ li{
 
 /* header */
 header{
-  
+  font-size:20px;
+  font-weight: bold;
+  position:fixed;
+  top:0;
+  left:0;
+  width: 100%;
   height: 10vh;
   background-color: #333366		;
-
+  z-index: 10;
 }
 
 .header-wrapper{
@@ -73,13 +78,14 @@ header ul{
 
 header li{
   padding:0 20px;
+  
 }
 
 
 /* main visual */
 .main-visual{
   height: 60vh;
-
+  margin-top: 10vh;;
   background-image: url(img/jonas-vincent-xulIYVIbYIc-unsplash.jpg);
   background-size: cover ;
   background-position:50% 45%;
@@ -104,15 +110,15 @@ header li{
   position: absolute;
   line-height: 2;
   font-weight: bold;
-  font-size:35px;
+  font-size:40px;
 }
 
 .introduction{
   
   align-items: center;
-  height: 55vh;
+  height: 70vh;
   background-color: #FFF ;
-  padding:30px 50px;
+  padding:100px 50px;
   color: #333366;
   background-image: url(img/niji.png);
   /* background-size: cover ; */
@@ -135,10 +141,10 @@ header li{
 
 /* contents */
 .contents{
-  padding:30px 50px;
+  padding:100px 50px;
   background-color: #FFEEFF;
  
-  height: 80vh;
+  height: 90vh;
   color: #333366;
 }
 
@@ -176,8 +182,8 @@ header li{
 
 .QA{
 
-  padding-top: 30px;
-  background-image: url(img/thumbnail_maskingtape.jpg);
+  padding:100px 30px;
+  background-image: url(img/768.png);
   background-size: cover ;
   background-color:rgba(255,255,255,0.6);
   background-blend-mode:lighten;
@@ -190,8 +196,7 @@ header li{
 }
 
 .QA-wrapper{
-  padding-top: 10px;
-  padding: 10px 100px;
+  padding: 50px 100px;
 }
 
 .QA-box:nth-child(n + 2) {
@@ -205,16 +210,17 @@ header li{
 
 
 form {
-  padding: 30px 50px;    
+  padding: 100px 30px;    
 }
 
 form>h2{
   color: #333366;
+  font-size:35px
 }
 
 .form-wrapper {
   text-align: center;
-  padding-top: 20px;
+  padding-top: 40px;
 }
 
 .form-wrapper p {
@@ -222,6 +228,7 @@ form>h2{
   color: #333366;
   font-size: 22px;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .form-box {
